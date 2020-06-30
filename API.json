@@ -1,0 +1,27 @@
+{
+    "API_URL": "${API_HOST}/query?function=${FUNCTION}&symbol=${SYMBOL}&outputsize=${OUTPUTSIZE}&interval=${INTERVAL}&apikey=${API_KEY}",
+    "API_ARGUMENTS": {
+        "FUNCTION": [
+            "TIME_SERIES_DAILY_ADJUSTED"
+        ],
+        "SYMBOL": [
+            "TWTR",
+            "IBM"
+        ],
+        "INTERVAL": [
+            "1min",
+            "5min",
+            "15min",
+            "30min",
+            "60min"
+        ],
+        "OUTPUTSIZE": [
+            "compact",
+            "full"
+        ],
+        "DATATYPE": [
+            "json",
+            "csv"
+        ]
+    }
+} 

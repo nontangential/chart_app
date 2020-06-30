@@ -1,0 +1,13 @@
+{
+  "name": "chart-app",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^9.0.5",
+    "fs-extra": "^9.0.1",
+    "node-fetch": "^2.6.0"
+  }
+}
