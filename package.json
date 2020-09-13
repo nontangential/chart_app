@@ -8,6 +8,6 @@
   "devDependencies": {
     "electron": "^9.0.5",
     "fs-extra": "^9.0.1",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
